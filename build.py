@@ -358,6 +358,7 @@ class PhantomJSBuilder(object):
             "-DENABLE_FTL_JIT=OFF",
             "-DENABLE_INDEXED_DATABASE=OFF",
             "-DENABLE_GSTREAMER=OFF",
+            "-DENABLE_OPENGL=OFF",
             "-DENABLE_TOUCH_EVENTS="+enable_touch_events
         ]
         command = [
