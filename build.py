@@ -200,7 +200,6 @@ class PhantomJSBuilder(object):
                 "-no-glib",
                 "-no-cups",
                 "-no-sm",
-                "-no-xinerama",
                 "-no-xkb",
                 "-no-xcb",
                 "-no-kms",
