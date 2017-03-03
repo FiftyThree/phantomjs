@@ -198,7 +198,6 @@ class PhantomJSBuilder(object):
                 "-no-eglfs",
                 "-no-egl",
                 "-no-glib",
-                "-no-gtkstyle",
                 "-no-cups",
                 "-no-sm",
                 "-no-xinerama",
