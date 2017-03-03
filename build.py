@@ -207,7 +207,8 @@ class PhantomJSBuilder(object):
                 "-no-directfb",
                 "-no-mtdev",
                 "-no-libudev",
-                "-no-evdev"
+                "-no-evdev",
+                "-no-feature-printpreviewwidget"
             ]
 
             if self.options.silent:
