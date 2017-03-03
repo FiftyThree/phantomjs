@@ -194,7 +194,7 @@ class PhantomJSBuilder(object):
                 # explicitly compile with SSL support, so build will fail if headers are missing
                 "-openssl", "-openssl-linked",
                 # explicitly compile with OpenGL
-				"-opengl",
+				"-opengl es2",
                 # disable unnecessary Qt features
                 "-no-openvg",
                 "-no-eglfs",
