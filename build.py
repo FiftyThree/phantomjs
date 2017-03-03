@@ -283,8 +283,8 @@ class PhantomJSBuilder(object):
             "-no-sql-oci",
             "-no-sql-odbc",
             "-no-sql-psql",
-            "-no-sql-sqlite",
-            "-no-sql-sqlite2",
+            #"-no-sql-sqlite",
+            #"-no-sql-sqlite2",
             "-no-sql-tds",
             "-no-tslib",
             "-no-xcb-xlib"
