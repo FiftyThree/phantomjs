@@ -193,6 +193,8 @@ class PhantomJSBuilder(object):
                 "-no-qpa-platform-guard",
                 # explicitly compile with SSL support, so build will fail if headers are missing
                 "-openssl", "-openssl-linked",
+                # explicitly compile with OpenGL
+				"-opengl"
                 # disable unnecessary Qt features
                 "-no-openvg",
                 "-no-eglfs",
