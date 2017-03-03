@@ -357,6 +357,7 @@ class PhantomJSBuilder(object):
             "-DENABLE_TEST_SUPPORT=OFF",
             "-DENABLE_FTL_JIT=OFF",
             "-DENABLE_INDEXED_DATABASE=OFF",
+            "-DENABLE_GSTREAMER=OFF",
             "-DENABLE_TOUCH_EVENTS="+enable_touch_events
         ]
         command = [
@@ -365,7 +366,7 @@ class PhantomJSBuilder(object):
             "--cmakeargs=\""+" ".join(cmakeArgs).replace("\"", "\\\"")+"\"",
             "--no-geolocation",
             "--no-device-orientation",
-            "--no-opengl"
+            "--no-opengl",
             "--no-video",
             "--no-video-track",
             "--no-netscape-plugin-api",
