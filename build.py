@@ -208,7 +208,6 @@ class PhantomJSBuilder(object):
                 "-no-mtdev",
                 "-no-libudev",
                 "-no-evdev",
-                "-no-pulseaudio",
                 "-no-alsa",
                 "-no-feature-PRINTPREVIEWWIDGET"
             ]
