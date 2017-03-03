@@ -366,7 +366,6 @@ class PhantomJSBuilder(object):
             "--cmakeargs=\""+" ".join(cmakeArgs).replace("\"", "\\\"")+"\"",
             "--no-geolocation",
             "--no-device-orientation",
-            "--no-opengl",
             "--no-video",
             "--no-video-track",
             "--no-netscape-plugin-api",
