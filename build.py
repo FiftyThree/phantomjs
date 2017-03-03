@@ -278,7 +278,6 @@ class PhantomJSBuilder(object):
             "-nomake", "examples",
             "-nomake", "tools",
             "-nomake", "tests",
-            "-no-audio-backend",
             "-no-dbus",
             "-no-gstreamer",
             "-no-journald",
