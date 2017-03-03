@@ -511,7 +511,7 @@ For details, please go the the web site: http://phantomjs.org/download.html.
                 elif answer == "y" or answer == "":
                     break
                 else:
-                    print("Invalid answer, try again.
+                    print("Invalid answer, try again.")
 
         builder = PhantomJSBuilder(options)
         builder.run()
