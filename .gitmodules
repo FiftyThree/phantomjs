@@ -1,0 +1,8 @@
+[submodule "src/qt/webkit"]
+  path = src/qt/webkit
+  url = https://github.com/annulen/webkit.git
+  branch = qtwebkit-stable
+[submodule "src/qt/qtbase"]
+  path = src/qt/qtbase
+  url = https://github.com/qt/qtbase.git
+  branch = v5.8.0
