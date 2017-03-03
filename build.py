@@ -355,7 +355,8 @@ class PhantomJSBuilder(object):
             "-DENABLE_TOOLS=OFF",
             "-DENABLE_API_TESTS=OFF",
             "-DENABLE_TEST_SUPPORT=OFF",
-			"-DENABLE_FTL_JIT=OFF",
+            "-DENABLE_FTL_JIT=OFF",
+            "-DENABLE_INDEXED_DATABASE=OFF",
             "-DENABLE_TOUCH_EVENTS="+enable_touch_events
         ]
         command = [
