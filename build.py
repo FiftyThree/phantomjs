@@ -191,6 +191,7 @@ class PhantomJSBuilder(object):
                 "-qpa", "phantom",
                 # disable qpa guard
                 "-no-qpa-platform-guard",
+                "-icu",
                 # explicitly compile with SSL support, so build will fail if headers are missing
                 "-openssl", "-openssl-linked",
                 # disable unnecessary Qt features
